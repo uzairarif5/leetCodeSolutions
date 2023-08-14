@@ -2,8 +2,6 @@
 #include <stdbool.h> 
 #include <stdlib.h> 
 
-
-
 bool isIsomorphic(char * s, char * t){
     char dictionary[256] = {0};
     for(int i = 0;s[i];i++){
